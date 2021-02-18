@@ -1,0 +1,84 @@
+@import 'palette';
+
+body {
+    color: $primary-color;
+    background: $secondary-color;
+    padding: 4%;
+  }
+  
+a {
+    color: inherit;
+    &:hover {
+        color: $primary-color;
+    }
+}
+
+hr { background-color: $primary-color; }
+
+li {
+    list-style: none;
+}
+
+button {
+    font-family: $secondary-font;
+}
+
+h1 {
+    font-weight: 700;
+    font-family: $primary-font;
+}
+
+p {
+    font-size: 110%;
+    font-family: $secondary-font;
+}
+
+footer {
+    margin-top: 900%;
+}  
+
+// body {
+//     color: $primary-color;
+//     background: $secondary-color;
+//     margin: 2%;
+//     margin-top: 10%;
+//     text-align: center;
+// }
+
+// header {
+//     font-size: 2em;
+//     font-weight: 700;
+// }
+
+// h1, h2, h3, h4, header {
+//     font-family: "Raleway", serif;
+// }
+
+// p, a {
+//     font-family: "Noto Sans", serif;
+// }
+
+// a {
+//     color: inherit;
+//     &:visited { color: inherit; }
+// }
+
+// p.description {
+//     font-size: 1.3em;
+//     padding: 10px;
+// }
+
+// input[type=text], input[type=password] {
+//     padding: 8px;
+//     boder-radius: 5px;
+//     border: 0;
+// }
+
+// .pure-button {
+//     color: $secondary-color;
+//     font-size: 1.2em;
+//     font-family: "Noto Sans", serif;
+// }
+
+// .button-success { background: $color1; }
+// .button-secondary { background: $color2; }

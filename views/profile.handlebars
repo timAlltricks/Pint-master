@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="col-med">
+        <h2>@{{user.username}}</h2>
+    </div>
+</div>
+
+{{#admin}}
+    <form action="/@{{user.username}}" method="POST">
+        <div class="row">
+            <div class="col-med">
+                <textarea name="bio" class="form-control" row="2" placeholder="Tell us about yourself">{{user.bio}}</textarea> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-group-mb-3">
+                <input type="submit" class="btn btn-light" value="Save">
+            </div>
+        </div>
+    </form>
+{{/admin}}
+{{^admin}}
+    <div class="row">
+        <div class="col-med">
+            <p>{{user.bio}}</p>
+        </div>
+    </div>
+{{/admin}}

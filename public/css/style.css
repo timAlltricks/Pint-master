@@ -1,0 +1,29 @@
+body {
+  color: #eee;
+  background: #80B3FF;
+  padding: 4%; }
+
+a {
+  color: inherit; }
+  a:hover {
+    color: #eee; }
+
+hr {
+  background-color: #eee; }
+
+li {
+  list-style: none; }
+
+button {
+  font-family: "Aleo", sans-serif; }
+
+h1 {
+  font-weight: 700;
+  font-family: "Telex", "Helvetica", sans-serif; }
+
+p {
+  font-size: 110%;
+  font-family: "Aleo", sans-serif; }
+
+footer {
+  margin-top: 900%; }

@@ -1,0 +1,38 @@
+{
+  "name": "Pint",
+  "version": "1.0.0",
+  "description": "A social network for your real life",
+  "main": "index.js",
+  "repository": "https://github.com/trmml/pint",
+  "author": "Josh Trommel",
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --exit",
+    "style": "xo",
+    "check": "yarn run test; yarn run style;",
+    "start": "gulp; yarn install; nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "express-flash": "git://github.com/RGBboy/express-flash.git",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "google-auth-library": "^1.6.1",
+    "jsonwebtoken": "^8.1.0",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.12.1",
+    "sanitize": "^2.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1",
+    "supertest": "^3.0.0",
+    "xo": "^0.18.2"
+  }
+}
